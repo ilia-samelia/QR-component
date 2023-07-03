@@ -1,0 +1,50 @@
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 320px;
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.image {
+  padding: 16px 16px 0 16px;
+  margin-bottom: 24px;
+}
+
+.text-side {
+  font-family: Outfit;
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark-navy, #1f314f);
+  width: 288px;
+  text-align: center;
+  line-height: normal;
+}
+
+.paragraph {
+  color: var(--grey, #7d889e);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  width: 256px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.188px;
+  line-height: normal;
+  padding: 16px;
+}
